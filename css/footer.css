@@ -1,0 +1,121 @@
+.footer{
+    background: var(--dark-gray);
+    margin-top: 60px;
+}
+
+.footer__box{
+    gap: 160px;
+    display: flex;
+}
+
+.footer__totembo,
+.footer__product,
+.footer__contact-us{
+    margin-top: 100px;
+}
+.totembo{
+    font-family: var(--MB);
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 23px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: white;
+}
+
+.totembo__list,
+.product__list,
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+
+.totembo__list-link,
+.product__list-link,
+.contact__phone,
+.contact__mail,
+.contact__container-text,
+.footer__socials {
+font-family: var(--MR);
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+vertical-align: middle;
+text-transform: capitalize;
+color: white;
+}
+
+.product,
+.contact{
+font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 2.2px;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+.footer__socials{
+    margin-top: 60px;
+}
+
+.footer__icons {
+    margin-top: 40px;
+    display: flex;
+    gap: 26px;
+    margin-bottom: 88px;
+}
+
+@media  screen and (max-width:1010px){
+
+
+.footer__box{
+    gap: 100px;
+    display: flex;
+}
+
+}
+@media  screen and (max-width:800px){
+
+
+.footer__box{
+    display: flex;
+    gap: 70px;
+}
+.totembo__list-link,
+.product__list-link,
+.contact__phone,
+.contact__mail,
+.contact__container-text,
+.footer__socials {
+    font-size: 14px;
+}
+
+}
+@media  screen and (max-width:680px){
+
+
+.footer__box{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.totembo__list-link,
+.product__list-link,
+.contact__phone,
+.contact__mail,
+.contact__container-text,
+.footer__socials {
+    font-size: 14px;
+}
+
+}

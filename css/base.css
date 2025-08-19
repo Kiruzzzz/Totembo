@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --dark-gray: #323232;
+    --MB:'MB', sans-serif;
+    --MR: 'MR', sans-serif;
+    --bg: #E1E1E1;
+}
+
+body{
+background: #F1F1F1;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
